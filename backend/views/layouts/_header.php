@@ -9,7 +9,7 @@ NavBar::begin([
     'options' => ['class' => 'navbar-expand-lg navbar-light bg-light shadow-sm']
 ]);
 $menuItems = [
-    ['label' => 'Create', 'url' => ['/video/create']],
+    ['label' => 'Create', 'url' => ['/site/index']],
 ];
 if (Yii::$app->user->isGuest) {
     $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
